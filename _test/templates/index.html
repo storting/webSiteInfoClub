@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoClub Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="loginPage\Logo.png" alt="logo">
+        <div class="logo_text"><b>InfoClub</b></div>
+    </header>
+    <main>
+        <form action="/process" method="post">
+            <label>
+                <input 
+                type="text"
+                id="phone_number" 
+                name="phone_number"
+                placeholder="Phone number"
+                style="color: #49454F;">
+            </label>
+            
+            <label>
+                <input 
+                type="text" 
+                id="password" 
+                name="password"
+                placeholder="Password"
+                style="color: #49454F;">
+            </label>
+            
+            <div class="RemRes">
+                <input 
+                    class="remember_me" 
+                    type="checkbox">
+                Remember me 
+                <a 
+                    class = "reset_password" 
+                    href="">
+                        Reset password
+                </a>
+            </div>
+            <button 
+                type="">
+                Login
+            </button>
+            <div class="register">
+                <a 
+                href="">
+                    Register
+                </a>
+            </div>
+            
+        </form>
+    </main>
+</body>
+</html>
